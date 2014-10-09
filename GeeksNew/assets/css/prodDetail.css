@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 6, 2014, 12:51:36 AM
+    Author     : Yawei
+*/
+body{
+    font-family: arial,sans-serif;
+}
+.imgDetail{
+    height:500px;
+    width:500px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border:1px solid rgb(232,232,232);
+    float:left;
+}
+.imgDetail img{
+    height:400px;
+    width:400px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#desc{
+    float:left;
+    margin-left: 40px;
+    margin-top: 20px;
+    /*border:1px solid rgb(108,108,108);*/
+    height:500px;
+    width:400px;
+}
+
+#desc p{
+    margin-left: 10px;
+    font-size: 16px;
+    color:rgb(108,108,108);
+    height:20px;
+    line-height: 20px;
+}
+
+#ln{
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+#lpop{
+    font-size: 16px;
+    text-decoration: line-through;
+    color:rgb(108,108,108);
+    margin-left: 35px;
+}
+#lpd{
+    font-size: 23px;
+    color:rgb(228,57,60);
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+#lpde{
+    font-size: 15px;
+    color:rgb(108,108,108);
+    margin-left: 40px;
+}
+
+#detailad{
+    float:right;
+    margin-right: 60px;
+}
+
+#cartBtn{
+    border:none;
+    background:rgb(253,119,15);
+    color:#ffffff;
+    font-size: 18px;
+    height:30px;
+    width:250px;    
+    margin-top: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+}
+#cartBtn:hover,#cartBtn:active{
+    background:rgb(225,106,5);
+}
+#desc img{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+#detailBottom{
+    margin-left: 400px;
+    margin-top: 550px;
+}
+#detailBottom p{
+    font-size: 14px;
+    color:rgb(108,108,108);
+    margin-top: -10px;
+    margin-left: 120px;
+    
+}
+

@@ -1,0 +1,142 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 9, 2014, 9:39:53 PM
+    Author     : Yawei
+*/
+body{
+    font-family: arial,sans-serif;
+    width:100%;
+}
+#left{
+    float: left;
+    width:100%;
+}
+
+#shipInfo{     
+     margin-left: 0px;
+     border: 1px solid rgb(205,205,205);
+     height:380px;
+     margin-top: 0px;
+}
+#payInfo{
+    border:1px solid rgb(205,205,205);
+    height:650px;    
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+#payTitle,#complete_title{
+    background: rgb(231,231,231);
+    height:30px;
+    font-size: 17px;
+    font-weight: bold;
+    color:rgb(128,128,128);
+    line-height: 30px;
+}
+.pay_div{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.pay_div input{
+    width:50%;    
+}
+
+.pay_div input:focus{
+    border:1px solid black;
+}
+.pay_div p{
+    font-size: 12px;
+    color:red;
+    margin-top: 0;
+    margin-left: 30px;
+    display: none;
+}
+
+.pay_div label{
+    color:rgb(128,128,128);
+    font-size: 14px;
+}
+#bill_name{
+    margin-left: 20px;
+}
+#bill_type{
+    margin-left: 20px;
+}
+#bill_card{
+    margin-left: 20px;
+}
+#bill_mon{
+    margin-left: 20px;
+}
+#bill_add{
+    margin-left: 20px;    
+}
+#bill_address{
+    margin-left: 20px;
+}
+#bill_city{
+    margin-left: 20px;
+}
+#bill_state{
+    margin-left: 20px;
+}
+#bill_zip{
+    margin-left: 20px;
+}
+#bill_phone{
+    margin-left: 20px;
+}
+.pay_div span{
+    margin-left: -50px;
+    color:rgb(197,9,56);
+    font-weight: bold;
+}
+#complete{
+    border:1px solid rgb(205,205,205);
+    height:150px;    
+    margin-left: 0px;
+    margin-top: 10px; 
+}
+#complete_content{
+    font-size: 12px;
+    color:rgb(128,128,128);
+    height:30px;
+    line-height: 30px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 10px;
+}
+
+#complete_btn{
+    border:none;
+    background:rgb(253,119,15);
+    color:#ffffff;
+    font-size: 14px;
+    height:30px;
+    width:160px;      
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    float:right;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+#complete_btn:hover,#complete_btn:active{
+    background:rgb(225,106,5);
+}
+#check_bo{
+    text-align: center;
+    width:100%;
+}
+#check_bo img{
+    width:100%;
+}
+#check_bo p{
+    margin-top: -10px;
+}
+
+

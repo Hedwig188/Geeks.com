@@ -1,0 +1,299 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2014, 9:35:04 PM
+    Author     : Yawei
+*/
+body{
+    font-family:arial,sans-serif;
+}
+
+#aleft{
+    height:400px;
+    width:200px;
+    background:rgb(245,245,245);
+    float:left;
+    margin-left: 70px;
+}
+
+#aleft div{
+    height:30px;
+    width:100%;
+    border-bottom:1px solid rgb(228,228,228);
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+#aleft div:hover{
+    background: rgb(128,128,128);
+    color:#ffffff;
+    border-bottom: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+
+#aleft i{
+    float:right;
+    margin-right: 5px;
+}
+#amiddle{
+    height:600px;
+    width:750px;
+    /*background:rgb(245,245,245);*/
+    float:left;
+    margin-left: 25px;
+}
+#aright{
+    height:400px;
+    width:200px;
+    background:rgb(245,245,245);
+    float:left;
+    margin-left: 25px;
+}
+
+#down{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#down p{
+    margin-top: -10px;
+    color:rgb(205,205,205);
+}
+
+
+#basictop,#ohtitle,#odt{
+    background:rgb(231,231,231);
+    height:30px;
+    font-weight: bold;
+    color:rgb(128,128,128);
+    line-height: 30px;
+}
+
+#tmiddle{
+    color:orange;
+    font-size: 20px;
+    height:50px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+#basicform{
+    font-size: 14px;
+    
+}
+#basicform div{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#basicform input{
+    padding-left: 5px;
+    height:30px;
+    width:300px;
+    border:1px solid rgb(228,228,228);
+}
+
+#basicform input:focus{
+    border:1px solid black;
+}
+
+#basicform p{
+    font-size: 12px;
+    color:red;
+    margin-left: 140px;
+    margin-top: 3px;
+    display:none;
+}
+
+#curEmail{
+    margin-left: 50px
+}
+
+#curPwd{
+    margin-left: 21px
+}
+
+#newEmail{
+    margin-left: 71px
+}
+
+#newPwd{
+    margin-left: 42px
+}
+
+#curName{
+    margin-left: 50px
+}
+
+#newName{
+    margin-left: 70px
+}
+
+#btn{
+    border:none;
+    background:rgb(253,119,15);
+    color:#ffffff;
+    font-size: 18px;
+    height:40px;
+    width:120px;
+    margin-left: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+}
+
+#btn:hover,#btn:active{
+    background:rgb(225,106,5);
+}
+
+#shipform div{
+    background: rgb(239,239,239);
+    border:1px solid rgb(204,204,204);
+    height:160px;
+    width:230px;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+#shipform label{
+    margin-left: 5px;    
+}
+
+#shipform span{
+    color:grey;
+    text-decoration: underline;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#shipform span:hover,#shipform span:active{
+    color:red;    
+}
+
+#addShip{
+    float:bottom;
+    border:none;
+    background:rgb(253,119,15);
+    color:#ffffff;
+    font-size: 14px;
+    height:20px;
+    width:180px;
+    margin-left: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+}
+
+#addShip:hover,#addShip:active{
+    background:rgb(225,106,5);
+}
+
+#addshipform div,#editshipform div{
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+#addshipform input,#addshipform select,#editshipform input,#editshipform select{
+    height:20px;
+    width:200px;
+     border:1px solid rgb(228,228,228);
+}
+
+#addshipform input:focus,#addshipform select:focus,#editshipform input:focus,#editshipform select:focus{
+    border:1px solid black;
+}
+
+#addshipform p,#editshipform p{
+    font-size: 12px;
+    color:red;
+    margin-left: 156px;
+    display:none;
+}
+
+#add,#editBtn{
+    border:none;
+    background:rgb(253,119,15);
+    color:#ffffff;
+    font-size: 18px;
+    height:28px;
+    width:100px;
+    margin-left: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+}
+#editBtn{
+    width:180px;
+}
+
+#add:hover,#add:active,#editBtn:hover,#editBtn:active{
+    background:rgb(225,106,5);
+}
+
+#sName,#sName1{
+    margin-left: 50px;
+}
+#sAddress,#sAddress1{
+    margin-left: 40px;
+}
+#sCity,#sCity1{
+    margin-left: 127px;
+}
+#sState,#sState1{
+    margin-left: 117px;
+}
+#sZip,#sZip1{
+ margin-left:132px;   
+}
+#sPhone,#sPhone1{
+    margin-left: 58px;
+}
+
+.ohct_t,.odtb{
+    margin-left: 160px;
+    display: inline-block;
+    font-size: 14px;
+    color:rgb(128,128,128);
+    width:130px;
+    text-align: center;
+    height:30px;
+    line-height: 30px;
+}
+
+.ohbd{
+    margin-left: 160px;
+    display: inline-block;
+    font-size: 12px;
+    color:rgb(128,128,128);
+    width:130px;
+    text-align: center;
+    height:30px;
+    line-height: 30px;    
+}
+.ohbody,#ohct,#odtbb{
+     border-bottom:1px solid rgb(228,228,228);     
+}
+#oi{
+    font-size: 18px;
+    color:rgb(128,128,128);
+    font-weight:bold;
+}
+.oic{
+    font-size: 14px;
+    color:rgb(128,128,128);
+}
+
+#od{
+    border:1px solid rgb(228,228,228);
+}
+
+
+
+

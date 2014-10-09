@@ -1,0 +1,135 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 14, 2014, 11:13:15 AM
+    Author     : Yawei
+*/
+#header{
+    float: top;    
+}
+
+#login_body{
+    background:rgb(242,242,242);
+}
+
+#logo{
+    font-size: 35px;
+    color:rgb(161,165,168);
+    margin-top: 30px;
+    margin-left: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#login_img{
+    float: left;    
+    
+}
+
+#content{
+    background: #ffffff;
+    width: 920px;
+    height:353px;
+    margin:80px auto;
+    border:rgb(232,232,232) solid 4px;
+    
+    
+}
+
+#sign_in{
+    
+    height: 350px;
+    width: 300px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+#username,#userpwd{    
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(189,189,189);
+}
+
+
+#userpwd_input,#username_input{
+    height:28px;
+    width: 300px;
+    padding-left: 5px;
+    
+}
+#login_btn{
+    background: rgb(226,57,60);
+    height:32px;
+    width:310px;  
+    border-radius: 3px;
+    border:none;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+#login_btn:hover{
+    background: rgb(236,66,69);  
+    
+}
+
+#register_btn{
+    background:rgb(124,190,86);
+    height:30px;
+    width:150px;
+    border-radius: 3px;
+    border:none;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    float:right;
+    font-weight:bold;
+   
+}
+
+#div_bottom{
+    float:bottom;    
+}
+
+#copyright{
+    font-size: 15px;
+    color:gray;
+    text-align: center;
+}
+
+
+#register_btn:hover{
+    background:rgb(137,201,100);
+}
+
+.div_form{
+    margin-top: 20px;
+}
+
+#div_reg{    
+    float:right;
+    margin-right:250px;
+    margin-top: -85px;
+    border:rgb(232,232,232) solid 4px;
+    width:150px;
+    height:30px;
+}
+
+#err{
+    background: rgb(255,235,236);
+    position:absolute;
+    height:20px;
+    line-height: 20px;
+    bottom:277px;
+    width:307px;
+    color:red;
+    border:#ffbdbf solid 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display:none;
+}

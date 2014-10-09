@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 6, 2014, 12:51:36 AM
+    Author     : Yawei
+*/
+body{
+    font-family: arial,sans-serif;
+    width:100%;
+}
+.imgDetail{
+    /*height:80%;*/
+    width:80%;
+    margin-top: 20px;
+    margin-left: 30px;
+    border:1px solid rgb(232,232,232);
+    float:left;
+}
+.imgDetail img{
+    height:90%;
+    width:90%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#desc{
+    float:left;
+    margin-left: 20px;
+    margin-top: 20px;    
+    width:90%;
+}
+
+#desc p{
+    margin-left: 10px;
+    font-size: 14px;
+    color:rgb(108,108,108);
+    height:20px;
+    line-height: 20px;
+}
+
+#ln{
+    font-size: 15px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#lpop{
+    font-size: 14px;
+    text-decoration: line-through;
+    color:rgb(108,108,108);
+    margin-left: 20px;
+}
+#lpd{
+    font-size: 16px;
+    color:rgb(228,57,60);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#lpde{
+    font-size: 13px;
+    color:rgb(108,108,108);
+    margin-left: 10px;
+}
+
+#cartBtn{
+    border:none;
+    background:rgb(253,119,15);
+    color:#ffffff;
+    font-size: 16px;
+    height:30px;
+    width:250px;    
+    margin-top: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+}
+#cartBtn:hover,#cartBtn:active{
+    background:rgb(225,106,5);
+}
+#desc img{
+    margin-left: 10px;
+    margin-top: 30px;   
+}
+
+#detailBottom{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#detailBottom img{
+    width:100%;
+}
+#detailBottom p{
+    font-size: 14px;
+    color:rgb(108,108,108);
+    margin-top: -10px;
+    margin-left: 30px;
+}
+

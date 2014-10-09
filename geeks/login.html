@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Geeks_login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/prelogin.css">
+        <script src="js/login.js"></script>
+    </head>
+    <body id="login_body">
+        <div id="page">
+            <div id="header">                
+                <h1 id="logo">Geeks.com</h1>
+            </div>
+            <div id="content">
+                <div id="login_img">
+                    <img src="image/hellojoy.jpg" alt="">
+                </div>
+                <div id="sign_in">
+                    <form id="login_form" action="login.php" method="post" onsubmit="return formValidate()">
+                        <div class="div_form">
+                            <label id="username">Username</label><br>        
+                            <input id="username_input" name="username_input" value="" type="text" onkeyup="check()">       
+                        </div>
+                        <div class="div_form">
+                            <label id="userpwd">Password</label><br>
+                            <input id="userpwd_input" name="userpwd_input" value="" type="password" onkeyup="check()">            
+                        </div>
+                        <label id="err">&nbsp;&nbsp;Username or Password is invalid4.</label> 
+
+                        <div class="div_form">
+                            <input type="submit" id="login_btn" value="Sign  In" >
+                        </div>
+
+                    </form>
+                </div>
+            </div>            
+            <div id="div_reg">
+                <input type="button" id="register_btn" value="Free Register">
+            </div>
+            <div id="div_bottom">
+                <p id="copyright">Copyright&COPY;2014     Yawei Huang Support</p>
+            </div>
+        </div>
+    </body>
+</html>
