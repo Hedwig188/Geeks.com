@@ -1,6 +1,3 @@
-1.Web Design:GeeksFront:http://cs-server.usc.edu:50468/GeeksNew/index.php/main/
-login:initial username:yy@qq.com password:1
-You can also register for your own.
 The entire project is about online-shopping,customer can buy different category products.
 
 For mobiles, I used the user_agent in codeIgniter. Instead of rewriting my code all over
@@ -19,17 +16,10 @@ active record in CI.
 For avoiding xss, I used the post helper in CI($this->input->post('xxx')),and in the config, I set 
 $config['global_xss_filtering'] = TRUE;
 
-for manager report:
-Geeks:http://cs-server.usc.edu:50468/Geeks/login.html
-username:ivy password:33333
-I add another page:orderReport.php to show the order information to the manager. You can click the sidebar ''
+
 PS:Do not open GeeksFront and Geeks back in one browser at the same time, the session maybe conflict.
 Firefox is the default browser that I chose.
 
-summary of each added page(Geeks)
-orderReport.php:show the order table that the manager could search.
-getProdName.php:if the manager specific a search criteria, it will process to show all the product name in the select list.
-getTable.php:show the order detail table.
 
 summary of each web page:(GeeksNew)
 1) views folder:
